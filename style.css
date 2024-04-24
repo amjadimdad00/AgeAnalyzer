@@ -16,7 +16,6 @@
 .calculator {
     width: 100%;
     max-width: 600px;
-    margin-left: 10%;
     margin-top: 10%;
 }
 
@@ -29,17 +28,20 @@
 }
 
 .input-box {
+    width: 100%;
+    max-width: 300px;
     margin: 40px 0;
-    padding: 35px;
+    padding: 20px;
     border-radius: 10px;
     display: flex;
     text-align: center;
+    flex-direction: column;
     background: rgba(255, 255, 255, 0.3);
 }
 
 .input-box input {
     flex: 1;
-    margin-right: 20px;
+    margin-bottom: 10px;
     padding: 14px 20px;
     border: 0;
     outline: 0;
